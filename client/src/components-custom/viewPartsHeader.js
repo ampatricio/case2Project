@@ -30,7 +30,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   searchIcon: {
-    backgroundColor: '#fff',
+    backgroundColor: '#92E1E1',
+    borderRadius: theme.shape.borderRadius,
     padding: theme.spacing(0, 2),
     height: '100%',
     position: 'absolute',
