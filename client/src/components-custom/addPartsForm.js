@@ -34,9 +34,8 @@ export default function Component(props) {
   const dispatch = useDispatch();
 
   const handleSubmit = (event) => {
-    event.preventDefault();
 
-    const intPartNumber = parseInt({partNumber});
+    //const intPartNumber = parseInt({partNumber});
     //const intNSN = parseInt({NSN});
     //const intQTY = parseInt({qty})
     //const intPrice = parseInt({price});

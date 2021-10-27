@@ -4,9 +4,9 @@ import { getParts, createPart } from '../controllers/parts.js';
 
 const router = express.Router();
 
-router.get('/', getUsers);
-router.post('/', createUser);
-router.get('/', getParts);
-router.post('/', createPart);
+router.get('/users', getUsers);
+router.post('/users', createUser);
+router.get('/parts', getParts);
+router.post('/parts', createPart);
 
 export default router;
